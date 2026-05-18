@@ -46,3 +46,17 @@ C:\Users\DEll\.codex\pets\
 ## 说明
 
 当前仓库保存的是已经完成的宠物成品，适合直接归档、分享或继续做轻量说明整理。
+
+## 工作树
+
+当前项目还保留了两个独立工作树，方便并行修改：
+
+- 主仓库：`C:\Users\DEll\Documents\Codex\2026-05-17\111`
+- 展示分支工作树：`C:\Users\DEll\Documents\Codex\2026-05-17\111-readme-polish`
+- 宠物说明分支工作树：`C:\Users\DEll\Documents\Codex\2026-05-17\111-pet-docs`
+
+对应分支：
+
+- `master`
+- `feature/readme-polish`
+- `feature/pet-docs`
