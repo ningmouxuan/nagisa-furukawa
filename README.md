@@ -1,16 +1,19 @@
-# 古河渚宠物
+# 古河渚 Codex 宠物
 
-这个仓库保存了一个可用于 Codex 自定义宠物的古河渚成品资源。
+这个仓库保存了一套可直接使用的 Codex 自定义宠物资源，角色为《CLANNAD》中的古河渚。
 
-宠物设定：
+![古河渚动作总览](nagisa-furukawa/contact-sheet.png)
+
+## 角色信息
 
 - 名称：古河渚
 - 标识：`nagisa-furukawa`
-- 描述：《CLANNAD》古河渚的 Q 版校园系宠物，短棕发、团子发饰、米白校服与温柔害羞气质
+- 风格：Q 版校园系
+- 特征：短棕发、团子发饰、米白校服、温柔害羞气质
 
-## 目录说明
+## 仓库内容
 
-`nagisa-furukawa/` 目录下包含：
+`nagisa-furukawa/` 目录包含以下文件：
 
 - `pet.json`：宠物元信息
 - `spritesheet.webp`：宠物动画图集
@@ -19,11 +22,13 @@
 
 ## 使用方法
 
-如果要在本机 Codex 宠物目录中使用这只宠物，可以把 `nagisa-furukawa` 目录整体放到：
+如果你想在本机 Codex 中使用这只宠物，可以把 `nagisa-furukawa` 整个目录放到下面的位置：
 
-`C:\Users\DEll\.codex\pets\`
+```text
+C:\Users\DEll\.codex\pets\
+```
 
-目标结构应类似：
+目标结构如下：
 
 ```text
 C:\Users\DEll\.codex\pets\
@@ -32,8 +37,12 @@ C:\Users\DEll\.codex\pets\
     spritesheet.webp
 ```
 
-`contact-sheet.png` 和 `run-summary.json` 主要用于查看与留档，不是运行时必需文件。
+其中：
 
-## 当前内容
+- `pet.json` 是必需文件
+- `spritesheet.webp` 是运行时使用的主图集
+- `contact-sheet.png` 和 `run-summary.json` 主要用于预览和留档
 
-当前仓库保存的是已经完成的宠物成品，不包含完整生成过程中的全部中间文件。
+## 说明
+
+当前仓库保存的是已经完成的宠物成品，适合直接归档、分享或继续做轻量说明整理。
