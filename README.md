@@ -18,21 +18,20 @@
 - `pet.json`：宠物元信息
 - `spritesheet.webp`：宠物动画图集
 - `contact-sheet.png`：动作总览图
-- `run-summary.json`：生成结果摘要
 
 ## 使用方法
 
-如果你想在本机 Codex 中使用这只宠物，可以把 `nagisa-furukawa` 整个目录放到下面的位置：
+如果你想在 Codex 中使用这只宠物，可以把 `nagisa-furukawa` 整个目录放到自己的宠物目录中。
 
 ```text
-C:\Users\DEll\.codex\pets\
+<Codex pets 目录>/
 ```
 
 目标结构如下：
 
 ```text
-C:\Users\DEll\.codex\pets\
-  nagisa-furukawa\
+<Codex pets 目录>/
+  nagisa-furukawa/
     pet.json
     spritesheet.webp
 ```
@@ -41,22 +40,12 @@ C:\Users\DEll\.codex\pets\
 
 - `pet.json` 是必需文件
 - `spritesheet.webp` 是运行时使用的主图集
-- `contact-sheet.png` 和 `run-summary.json` 主要用于预览和留档
+- `contact-sheet.png` 主要用于预览和人工检查
 
 ## 说明
 
-当前仓库保存的是已经完成的宠物成品，适合直接归档、分享或继续做轻量说明整理。
+当前仓库保存的是已经完成的宠物成品，适合直接归档、分享，或作为公开示例仓库继续补充说明。
 
-## 工作树
+## 开发说明
 
-当前项目还保留了两个独立工作树，方便并行修改：
-
-- 主仓库：`C:\Users\DEll\Documents\Codex\2026-05-17\111`
-- 展示分支工作树：`C:\Users\DEll\Documents\Codex\2026-05-17\111-readme-polish`
-- 宠物说明分支工作树：`C:\Users\DEll\Documents\Codex\2026-05-17\111-pet-docs`
-
-对应分支：
-
-- `master`
-- `feature/readme-polish`
-- `feature/pet-docs`
+为了减少个人环境信息暴露，仓库文档只保留通用目录示意，不记录个人设备路径、本地工作树位置或临时目录信息。
